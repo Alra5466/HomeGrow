@@ -34,7 +34,8 @@ nav ul li a:hover {
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
-    padding: 60px 0 0; /* Adjust for the fixed navbar */
+    top-padding: 60px;
+    padding: 0; /* Adjust for the fixed navbar */
     background-color: #2d2d2d; /* Dark grey background */
     color: #cccccc; /* Light grey text for readability */
     line-height: 1.6;
