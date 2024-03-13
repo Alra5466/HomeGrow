@@ -34,80 +34,94 @@ nav ul li a:hover {
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
-    top-padding: 60px;
-    padding: 0; /* Adjust for the fixed navbar */
+    padding-top: 60px; /* Adjust for the navbar */
     background-color: #2d2d2d; /* Dark grey background */
-    color: #cccccc; /* Light grey text for readability */
+    color: #cccccc; /* Light grey text */
     line-height: 1.6;
 }
 
-
 .header {
-    background: #424242; /* Darker grey */
-    color: #f0f0f0; /* Brighter text for contrast */
-    padding: 30px;
+    background: linear-gradient(to right, #424242, #303030); /* More dynamic background */
+    color: #f0f0f0;
+    padding: 40px 20px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    border-bottom: 5px solid #5c5c5c; /* Solid accent line */
 }
 
-
+/* Card-like design with hover effect for sections and solutions */
 .section, .solution {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center-align children */
     max-width: 800px;
-    margin: 20px auto;
+    margin: 30px auto;
     padding: 20px;
-    background-color: #363636; /* Slightly lighter grey for the section background */
-    border: 1px solid #484848; /* Border for definition */
-    border-radius: 5px; /* Softer corners */
+    background: #363636;
+    border-radius: 15px; /* Rounded corners for a softer look */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
+    overflow: hidden; /* Ensures nothing spills out of the border-radius */
 }
 
 .section:hover, .solution:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover for a "lift" effect */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
-.solution {
-    background-color: #3e3e3e; /* Distinct yet subtle background for solutions */
-    border-left: 4px solid #5c5c5c; /* Grey accent */
+.solution::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -10%;
+    width: 120%;
+    height: 200%;
+    background-color: #5c5c5c; /* Subtle accent overlay */
+    transform: rotate(45deg);
+    transition: all 0.5s ease;
 }
 
-
-h1, h2, h3 {
-    color: #ffffff; /* White for headers to stand out */
+.solution:hover::before {
+    top: -90%;
+    background-color: #6d6d6d; /* Slight color shift on hover */
 }
 
-h2 {
-    border-bottom: 2px solid #5c5c5c; /* Grey accent for titles */
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+h2, h3 {
+    width: 100%; /* Ensure headings span the width of their container */
+    text-align: center; /* Center-align text */
+    color: #ffffff;
+    margin: 10px 0;
 }
 
+/* Styling adjustments for list items */
 ul li {
     padding: 8px 0;
-    border-bottom: 1px solid #484848; /* Subtle separators for list items */
-    margin-left: 20px;
-}
-
-ul li:before {
-    content: '▹';
-    color: #007bff; /* Adding a pop of color for interest */
-    font-size: 12px; /* Slightly larger icon */
-    margin-right: 10px;
     position: relative;
-    top: -1px;
+    list-style: none; /* No bullets */
 }
 
-ul li:last-child {
-    border-bottom: none;
+ul li::before {
+    content: '▹';
+    color: #007bff; /* Bright accent color */
+    font-size: 14px; /* Larger icon for visibility */
+    position: absolute;
+    left: -25px; /* Adjust as necessary */
 }
 
-
+/* Responsive adjustments */
 @media (max-width: 768px) {
     .section, .solution {
-        margin: 10px;
-        padding: 15px;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .header {
+        padding: 30px 15px;
+    }
+
+    ul li::before {
+        left: -20px; /* Adjust for smaller screens */
     }
 }
+
 
 
 
