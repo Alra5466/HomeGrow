@@ -1,85 +1,91 @@
+:root {
+    --primary-color: #0a9396; /* Teal for a techy, yet natural vibe */
+    --accent-color: #94d2bd; /* Soft mint for highlights */
+    --background-color: #e9ecef; /* Light gray for a clean, modern background */
+    --text-color: #343a40; /* Dark slate gray for readability */
+    --nav-height: 60px; /* Standard navigation bar height */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace; /* Techy, yet readable font */
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    padding-top: var(--nav-height);
+}
+
 nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #2c3e50; /* Darker shade for better contrast */
+    background-color: var(--primary-color);
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: var(--nav-height);
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 nav ul li a {
-    display: block;
-    padding: 15px 20px;
-    color: white;
+    color: #fff;
     text-decoration: none;
-    transition: color 0.3s ease;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-nav ul li a:hover {
-    color: #4CAF50;
+nav ul li a:hover, nav ul li a:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    padding: 10px 15px;
+    border-radius: 5px;
 }
-
-body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    margin: 0;
-    padding-top: 60px;
-    background-color: #181818;
-    color: #e0e0e0;
-    line-height: 1.6;
-}
-
 
 .header {
-    background: #202020; /* Subtle dark background */
-    color: #ffffff;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
     padding: 40px 20px;
     text-align: center;
-    border-bottom: 4px solid #2c3e50; /* A pop of color */
+    border-bottom: 4px solid var(--primary-color);
 }
 
-/* Card-like design with hover effect for sections and solutions */
 .section, .solution {
-    background-color: #242424;
+    background-color: #fff;
     margin: 20px auto;
     max-width: 800px;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .section:hover, .solution:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-
 h1, h2, h3 {
-    color: #ffffff;
+    color: var(--primary-color);
 }
 
 h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin: 20px 0;
     padding-bottom: 5px;
-    border-bottom: 2px solid #2c3e50; /* Adding a subtle line */
-}
-
-ul {
-    list-style: none;
-    padding-left: 0;
+    border-bottom: 2px solid var(--accent-color);
 }
 
 ul li {
@@ -88,7 +94,7 @@ ul li {
     position: relative;
 }
 
-ul li:before {
+ul li::before {
     content: '';
     position: absolute;
     left: 0;
@@ -96,12 +102,10 @@ ul li:before {
     transform: translateY(-50%);
     width: 8px;
     height: 8px;
-    background-color: #2c3e50; /* A pop of color */
+    background-color: var(--primary-color);
     border-radius: 50%;
 }
 
-
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .header {
         padding: 30px 15px;
@@ -110,6 +114,16 @@ ul li:before {
     .section, .solution {
         margin: 15px;
         padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
     }
 }
 
