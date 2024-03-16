@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Need Finding Updated</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project-overview.html">Project Overview</a></li>
+        <li><a href="need-finding-updated.html">Need Finding Revisted</a></li>
+        <li><a href="old-need-finding.html">Old Need Finding</a></li>
+        <li><a href="student-nutrition-habits.html">Student Nutrition Habits</a></li>
+        <li><a href="design-criteria.html">Design Criteria</a></li>
+        <li><a href="ideation.html">Ideation</a></li>
+        <li><a href="pretotyping.html">Pretotyping</a></li>
+        <li><a href="prototyping.html">Prototyping</a></li>
+    </ul>
+</nav>
+
+<div class="section" id="addressing-the-need">
+    <h2>Addressing the Need</h2>
+    <p>Our initiative tackles the critical issue of nutritional gaps among college students, a demographic facing widespread micronutrient deficiencies that affect both their physical health and cognitive functions. These challenges stem from limited access to nutritious foods, compounded by the demands of their busy schedules and limited budgets.</p>
+    <p><strong>Target User Group:</strong> We specifically focus on college students living in urban settings, who lack outdoor spaces for gardening and are in dire need of convenient, cost-effective, and nutritious food solutions. This group's lifestyle needs highlight the importance of ease of use, affordability, and time-saving in product design.</p>
+    <p><strong>User Insights:</strong> Understanding our users' perspective is crucial. College students' main pain points include the hassle of traditional cooking and the high cost of healthy eating options. Our solution leverages these insights, ensuring it meets their specific requirements for convenience, simplicity, and efficiency.</p>
+    <p><strong>Engagement and Refinement:</strong> We are committed to engaging with our target audience through surveys, prototype testing, and feedback sessions throughout the development process. This user-centered approach ensures our product design and development are guided by real-world use cases, enhancing usability and satisfaction.</p>
+    <p><strong>Impact:</strong> Addressing this need is not just about filling a market gap; it's about making a tangible difference in the lives of countless students. With about 59% of American college students suffering from nutrient deficiencies (The College Puzzle, Stanford University), our project's significance is underscored by the urgent need to provide an affordable, easy-to-use system for growing nutrient-dense foods, thereby helping students lead healthier lives.</p>
+    <p><strong>Need Statement:</strong> Busy college students require access to an affordable, easy-to-use system for growing nutrient-dense foods to overcome the challenge of micronutrient deficiencies and lead healthier lives.</p>
+</div>
+
+    
+<div class="section" id="student-nutrition-habits">
+    <h2>Student Nutrition Habits - An Insightful Interview</h2>
+    <p>This video features an enlightening interview with students from CU Boulder, delving into their nutrition habits. It sheds light on how college students manage their dietary needs amidst their busy schedules and the challenges they face in maintaining a balanced diet.</p>
+    <iframe src="https://drive.google.com/file/d/1WPfYPsdbUOR5Xif7Zp-SD4fN0fFPMzCz/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
+
+
+<div class="section" id="design-criteria">
+    <h2>Design Criteria</h2>
+    <p>Our product aims to address the urgent need for accessible, nutritious food options among college students, drawing directly from their perspective. To ensure our solution meets this need, we have established the following critical and secondary design criteria.</p>
+    
+    <h3>Critical Design Criteria</h3>
+    <p>These criteria are essential for our medium-fidelity prototype to effectively satisfy the identified need:</p>
+    <ul>
+        <li><strong>Compactness:</strong> Must fit within small, confined spaces typical of urban living and dormitories, making it suitable for our target user group's living conditions.</li>
+        <li><strong>Cleanliness:</strong> The system should maintain a hygienic environment from seeding to harvesting to ensure user safety and product integrity.</li>
+        <li><strong>Ease of Operation & Maintenance:</strong> Designed for ease, akin to operating a basic kitchen appliance, requiring minimal effort from users unfamiliar with gardening.</li>
+        <li><strong>Low Cost:</strong> Affordability is key, making the system accessible to students and individuals on tight budgets.</li>
+        <li><strong>Nutrition:</strong> It must facilitate the growth of nutrient-rich microgreens, directly addressing the core need for better nutrition among college students.</li>
+        <li><strong>Resource Efficiency:</strong> Efficient use of water and electricity, minimizing the environmental footprint and operational costs.</li>
+        <li><strong>Sustainability:</strong> Promotes sustainable food consumption practices, aligning with broader environmental goals.</li>
+    </ul>
+    
+    <h3>Secondary Design Criteria</h3>
+    <p>After meeting the critical criteria, the following secondary objectives will enhance the product's value:</p>
+    <ul>
+        <li><strong>Aesthetic Appeal:</strong> Besides functionality, the design should add an element of greenery and style to living spaces, appealing to the aesthetic sensibilities of the user.</li>
+        <li><strong>Scalability:</strong> The ability to expand or adapt the system for a wider variety of plants, offering users more options once the primary goal of growing microgreens is achieved.</li>
+        <li><strong>Connectivity:</strong> Integration with smart devices for monitoring and managing the growth process, providing a seamless and interactive user experience.</li>
+        <li><strong>User Education:</strong> Incorporating educational tools or resources to inform users about the nutritional benefits of microgreens and how to incorporate them into their diet effectively.</li>
+    </ul>
+    <p>These criteria will guide the development of our product through to the end of the semester, with the flexibility to refine our approach based on further need-finding and user feedback until Week 9. The secondary criteria will shape the evolution of our product into a high-fidelity prototype, pushing the boundaries of what we can achieve in addressing the nutritional needs of college students.</p>
+</div>
+
+    
+<div class="section">
+
+    <h2>Identifying the Market Gap</h2>
+    <p>As we explore the landscape of indoor gardening solutions, it becomes clear that while there are various products available, each comes with its set of limitations. From high costs and maintenance requirements to the lack of automation and focus on a narrow range of plants, these solutions fall short of addressing the full spectrum of users' needs, especially those of our target demographic: busy, budget-conscious college students seeking simplicity and efficiency in growing nutrient-rich foods. This analysis not only showcases the strengths and weaknesses of the current market offerings but also highlights the significant gap our product aims to fill. By focusing on affordability, ease of use, and versatility, we are poised to deliver a solution that overcomes these barriers, making indoor gardening accessible and appealing to a wider audience.</p>
+    <h2>Existing Solutions</h2>
+
+  <div class="solution">
+    <h3>Rise Personal Indoor Garden</h3>
+    <p>A compact and stylish solution for growing up to 12 plants, including fruits, veggies, herbs, and microgreens. It integrates IoT smart technology for an enhanced gardening experience.</p>
+    <p><strong>Pros:</strong></p>
+    <ul>
+        <li>Grow up to 12 plants</li>
+        <li>Grow fruits, veggies, herbs, and microgreens</li>
+        <li>Compact</li>
+        <li>Aesthetic</li>
+        <li>IoT Smart Device</li>
+    </ul>
+    <p><strong>Cons:</strong></p>
+    <ul>
+        <li>$349 Expensive</li>
+        <li>Takes up to 30 days to grow foods</li>
+        <li>Requires water, nutrients, and pH balance for maintenance</li>
+        <li>Seeds must be started in nursery and transferred to growing system (high maintenance)</li>
+    </ul>
+</div>
+
+<div class="solution">
+    <h3>Gardyn Home Kit</h3>
+    <p>An advanced indoor gardening system capable of growing up to 30 plants at once, featuring low maintenance and AI & IoT smart device integration for a wide variety of plants.</p>
+    <p><strong>Pros:</strong></p>
+    <ul>
+        <li>Can grow up to 30 plants at one time</li>
+        <li>Low maintenance</li>
+        <li>AI & IoT Smart Device</li>
+        <li>Can grow a large variety of plants</li>
+    </ul>
+    <p><strong>Cons:</strong></p>
+    <ul>
+        <li>$899 Extremely Expensive</li>
+        <li>Takes 4-5 Weeks to Harvest</li>
+        <li>Subscription required for seed membership & app usage</li>
+        <li>Fairly Large</li>
+    </ul>
+</div>
+
+<div class="solution">
+    <h3>Ingarden Microgreen Kit</h3>
+    <p>Specializing in microgreens, this kit offers a very compact and simple approach to indoor gardening, with a quick turnaround of 5-7 days for crop readiness, ensuring ease of operation and maintenance.</p>
+    <p><strong>Pros:</strong></p>
+    <ul>
+        <li>Very Compact</li>
+        <li>Simple</li>
+        <li>Easy to Operate and Maintain</li>
+        <li>Grows in 5-7 days</li>
+    </ul>
+    <p><strong>Cons:</strong></p>
+    <ul>
+        <li>Can only grow microgreens</li>
+        <li>$150 for a very simplistic device</li>
+        <li>Requires seed pad subscription or purchases</li>
+    </ul>
+</div>
+
+<div class="solution">
+    <h3>Gardens Alive Microgreen Kit</h3>
+    <p>A budget-friendly option for growing microgreens with simplicity and compactness in mind. Despite its low cost, it produces a quick harvest in 5-7 days but requires manual daily watering.</p>
+    <p><strong>Pros:</strong></p>
+    <ul>
+        <li>Grows in 5-7 days</li>
+        <li>Cheap $22</li>
+        <li>Simple</li>
+        <li>Very Compact</li>
+    </ul>
+    <p><strong>Cons:</strong></p>
+    <ul>
+        <li>Can only grow microgreens</li>
+        <li>Small Harvest</li>
+        <li>Requires Daily Watering - Isn’t Automated</li>
+    </ul>
+</div>
+
+
+</body>
+</html>
