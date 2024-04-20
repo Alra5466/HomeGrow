@@ -80,6 +80,23 @@ nav ul li a:hover, nav ul li a:focus {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.section h2, .section h3 {
+    color: var(--primary-color); /* Ensures headings are colored to match your theme */
+    margin-bottom: 10px; /* Adds bottom margin for spacing below headings */
+}
+
+.section p, .section ul {
+    margin-bottom: 10px; /* Adds bottom margin to paragraphs and lists for better spacing */
+}
+
+.section ul {
+    padding-left: 20px; /* Adds indentation to list items */
+}
+
+.section li {
+    margin-bottom: 5px; /* Adds space between list items */
+}
+
 .section:hover, .solution:hover {
     transform: scale(1.02);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
